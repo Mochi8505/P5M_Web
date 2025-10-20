@@ -1,0 +1,87 @@
+.topbar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+/* Kiri: logo + judul halaman */
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.page-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111827;
+  letter-spacing: 0.2px;
+}
+
+/* Kanan */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  width: 250px;
+  background-color: #ffffff;
+  color: #111827;
+  outline: none;
+  transition: 0.2s;
+}
+
+.search-box input::placeholder {
+  color: #9ca3af;
+}
+
+.search-box input:focus {
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 2px rgba(29, 78, 216, 0.2);
+}
+
+.notif-icon {
+  font-size: 22px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-box img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.page-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111827; /* pastikan warna bukan putih */
+  letter-spacing: 0.2px;
+}
